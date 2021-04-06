@@ -1,4 +1,4 @@
-# Название семестровой работы
+# Splay Tree
 
 [![CMake](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-splay-tree/actions/workflows/cmake.yml/badge.svg)](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-splay-tree/actions/workflows/cmake.yml)
 
