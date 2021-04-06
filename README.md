@@ -60,7 +60,7 @@ _Заполните таблицу с указанием вклада каждо
 | Иванов Тимур         | 33.3        |  _WЕЕктор_            |
 
 **Девиз команды**
-> _without further interruption, let's celebrate and make some tree_
+> _Without further interruption, let's celebrate and make some tree_
 
 ## Структура проекта
 
