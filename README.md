@@ -54,7 +54,7 @@ Delete - `O(log(n))`
 | :---                 |   ---:      |  ---:                 |
 | Кобылин Константин   | √1108,89    |  _♂Dungeon♂Master♂_   |
 | Губайдуллин Ильшат   | √1108,89    |  _♂Semen♂_            |
-| Иванов Тимур         | √1108,89    |  _♂WЕЕ♂ктор_          |
+| Иванов Тимур         | √1108,89    |  _♂Wee♂ктор_          |
 
 **Девиз команды**
 > _Without further interruption, let's celebrate and make some tree_
