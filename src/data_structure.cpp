@@ -23,8 +23,8 @@ namespace itis {
     }
   }
 
-  SplayTree::SplayTree(Node *root) {
-    this->root = root;
+  SplayTree::SplayTree(Node *tree_root) {
+    this->root = tree_root;
   }
 
   SplayTree::~SplayTree() {
