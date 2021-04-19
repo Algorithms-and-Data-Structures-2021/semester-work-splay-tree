@@ -18,10 +18,11 @@ namespace itis {
     Node *search(int x);
     void insert(int x);
     void remove(int x);
+    void Clear(Node *x);
     void split(Node *x);
     Node *merge(SplayTree *s, SplayTree *t);
     void prettyPrint(Node *x);
-    ~SplayTree();
+    ~SplayTree() ;
   };
 
 }  // namespace itis

@@ -7,7 +7,7 @@ namespace itis {
     this->root = nullptr;
   }
 
-  void Clear(Node *x) {
+  void SplayTree::Clear(Node *x) {
     if (x->left_child != nullptr || x->right_child != nullptr) {
       if (x->left_child != nullptr && x->right_child == nullptr) {
         Clear(x->left_child);
@@ -350,21 +350,6 @@ namespace itis {
     } else if (vertex->right_child != nullptr) {
       prettyPrint(vertex->right_child);
     }
-  }
-
-  int main() {
-    SplayTree *sTree = new SplayTree();
-    sTree->insert(7);
-    sTree->insert(7);
-    sTree->insert(7);
-    sTree->insert(9);
-    sTree->insert(1);
-    sTree->insert(5);
-    sTree->insert(5);
-    sTree->insert(6);
-    Node *tree_root = sTree->root;
-    sTree->prettyPrint(tree_root);
-    return 0;
   }
 
 }  // namespace itis
