@@ -83,7 +83,7 @@ int main() {
       const auto time_point_after = chrono::steady_clock::now();
       input_file.close();
       const auto time_diff = time_point_after - time_point_before;
-      const long time_elapsed_ns = chrono::duration_cast<chrono::milliseconds>(time_diff).count();
+      const long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
       cout << time_elapsed_ns << endl;
     }
   }
@@ -126,7 +126,7 @@ int main() {
       }
       const auto time_point_after = chrono::steady_clock::now();
       const auto time_diff = time_point_after - time_point_before;
-      const long time_elapsed_ns = chrono::duration_cast<chrono::milliseconds>(time_diff).count();
+      const long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
       cout << time_elapsed_ns << endl;
     }
   }
