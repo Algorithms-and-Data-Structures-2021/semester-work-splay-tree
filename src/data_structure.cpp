@@ -8,18 +8,20 @@ namespace itis {
   }
 
   void SplayTree::Clear(Node *x) {
-    if (x->left_child != nullptr || x->right_child != nullptr) {
-      if (x->left_child != nullptr && x->right_child == nullptr) {
-        Clear(x->left_child);
-        delete x;
-      } else if (x->left_child == nullptr && x->right_child != nullptr) {
-        Clear(x->right_child);
-        delete x;
+    if (x != nullptr) {
+      if (x->left_child != nullptr || x->right_child != nullptr) {
+        if (x->left_child != nullptr && x->right_child == nullptr) {
+          Clear(x->left_child);
+          delete x;
+        } else if (x->left_child == nullptr && x->right_child != nullptr) {
+          Clear(x->right_child);
+          delete x;
+        } else {
+          Clear(x->left_child);
+        }
       } else {
-        Clear(x->left_child);
+        delete x;
       }
-    } else {
-      delete x;
     }
   }
 
@@ -234,7 +236,9 @@ namespace itis {
     Node *L = del->left_child;
     if (L == nullptr) {
       root = del->right_child;
-      root->parent = nullptr;
+      if (root != nullptr) {
+        root->parent = nullptr;
+      }
       delete del;
       return;
     }
@@ -333,7 +337,9 @@ namespace itis {
   }
 
   void SplayTree::prettyPrint(Node *vertex) {
-    if (vertex->left_child != nullptr && vertex->right_child != nullptr) {
+    if (vertex == nullptr){
+      std::cout << "empty tree" << std::endl;
+    } else if (vertex->left_child != nullptr && vertex->right_child != nullptr) {
       std::cout << vertex->data << ": " << vertex->left_child->data << ", " << vertex->right_child->data << std::endl;
     } else if (vertex->left_child != nullptr) {
       std::cout << vertex->data << ": " << vertex->left_child->data << std::endl;
