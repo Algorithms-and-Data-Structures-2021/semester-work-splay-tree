@@ -176,9 +176,7 @@ dataset/data/
 ## Источники
 
 |  [habr](https://habr.com/ru/company/otus/blog/535316/)                                      |
-| :---                                                                                        |
 |  [wikipedia](https://ru.wikipedia.org/wiki/Splay-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE)      |
-| :---                                                                                        |
-| [Гугл диск](https://drive.google.com/drive/folders/1-eRG8XaNT57QaX-8mZ_SyAU6HZp4Ia8p)       |
+|  [Гугл диск](https://drive.google.com/drive/folders/1-eRG8XaNT57QaX-8mZ_SyAU6HZp4Ia8p)      |
 
 
