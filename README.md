@@ -53,7 +53,7 @@
 - [`examples`](examples) - примеры работы со структурой данных;
 - [`dataset`](dataset) - наборы данных для запуска контрольных тестов и их генерация;
 
-Ссылка на гугл диск: https://drive.google.com/drive/folders/1-eRG8XaNT57QaX-8mZ_SyAU6HZp4Ia8p
+[Гугл диск](https://drive.google.com/drive/folders/1-eRG8XaNT57QaX-8mZ_SyAU6HZp4Ia8p)
 
 ## Требования (Prerequisites)
 
